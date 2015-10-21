@@ -1,0 +1,9 @@
+services:
+    lotusjeff.fancybox.listener:
+        class: lotusjeff\fancybox\event\listener
+        arguments:
+            - @config
+            - @template
+            - @user
+        tags:
+            - { name: event.listener }

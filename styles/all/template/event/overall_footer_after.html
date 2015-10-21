@@ -1,0 +1,15 @@
+	{% if not definition.INCLUDED_FANCYBOXJS %}
+		{% INCLUDEJS '@lotusjeff_fancybox/js/fancy.js' %}
+		{% INCLUDEJS '@lotusjeff_fancybox/fancybox/jquery.fancybox.js' %}
+<!-- IF S_LOTUSJEFF_FANCYBOX_GALLERY -->
+		{% INCLUDEJS '@lotusjeff_fancybox/fancybox/helpers/jquery.fancybox-thumbs.js' %}
+<!-- ENDIF -->
+<!-- IF S_LOTUSJEFF_FANCYBOX_BUTTON -->
+		{% INCLUDEJS '@lotusjeff_fancybox/fancybox/helpers/jquery.fancybox-buttons.js' %}
+<!-- ENDIF -->
+	<script>
+		var lotusjeffFancybox = {};
+		lotusjeffFancybox.small = {{ S_LOTUSJEFF_FANCYBOX_SMALL }};
+	</script>
+		{% DEFINE INCLUDED_FANCYBOXJS = true %}
+	{% endif %}
