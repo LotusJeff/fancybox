@@ -8,6 +8,7 @@
 */
 
 namespace lotusjeff\fancybox\acp;
+
 class fancybox_info
 {
 	public function module()
