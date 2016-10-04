@@ -27,6 +27,7 @@ class v_0_1_0 extends \phpbb\db\migration\migration
 			array('config.add', array('lotusjeff_fancybox_button', 1)),
 			array('config.add', array('lotusjeff_fancybox_gallery', 1)),
 			array('config.add', array('lotusjeff_fancybox_small', 1)),
+			array('config.add', array('lotusjeff_fancybox_versions', '0.1.0')),
 		);
 	}
 }

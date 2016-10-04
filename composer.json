@@ -3,7 +3,7 @@
 	"type": "phpbb-extension",
 	"description": "Fancybox for phpBB 3.1 will display images in a Fancybox overlay effect.",
 	"homepage": "https://github.com/LotusJeff/fancybox",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"keywords": ["phpbb", "extension", "lightbox", "image", "fancybox"],
 	"license": "GPL-2.0",
 	"authors": [
@@ -26,9 +26,10 @@
 			"phpbb/phpbb": ">=3.1.0"
 		},
 		"version-check": {
-			"host": "",
-			"directory": "",
-			"filename": ""
+			"host": "www.cocking.com",
+			"directory": "/phpbb-ext/fancybox",
+			"filename": "version-check.html",
+			"ssl": "true"
 		}
 	}
 }

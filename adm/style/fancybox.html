@@ -1,0 +1,45 @@
+<!-- INCLUDE overall_header.html -->
+
+<a id="maincontent"></a>
+
+<h1>{L_LOTUSJEFF_FANCYBOX_TITLE}</h1>
+
+<!-- IF S_ERROR -->
+	<div class="errorbox">
+		<h3>{L_WARNING}</h3>
+		<p>{ERROR_MSG}</p>
+	</div>
+<!-- ENDIF -->
+
+<form id="acp_board" method="post" action="{U_ACTION}">
+	<fieldset>
+		<legend>{LOTUSJEFF_FANCYBOX_SETTINGS}</legend>
+		<dl>
+			<dt><label for="lotusjeff_fancybox_button">{L_LOTUSJEFF_FANCYBOX_BUTTON}{L_COLON}</label><br /><span>{L_LOTUSJEFF_FANCYBOX_BUTTON_EXPLAIN}</span></dt>
+			<dd>
+				<input type="radio" class="radio" name="lotusjeff_fancybox_button" value="1" <!-- IF LOTUSJEFF_FANCYBOX_BUTTON -->checked="checked"<!-- ENDIF -->/> {L_YES} &nbsp;
+				<input type="radio" class="radio" name="lotusjeff_fancybox_button" value="0" <!-- IF not LOTUSJEFF_FANCYBOX_BUTTON -->checked="checked"<!-- ENDIF -->/> {L_NO}
+			</dd>
+		</dl>
+		<dl>
+			<dt><label for="lotusjeff_fancybox_gallery">{L_LOTUSJEFF_FANCYBOX_GALLERY}{L_COLON}</label><br /><span>{L_LOTUSJEFF_FANCYBOX_GALLERY_EXPLAIN}</span></dt>
+			<dd>
+				<input type="radio" class="radio" name="lotusjeff_fancybox_gallery" value="1" <!-- IF LOTUSJEFF_FANCYBOX_GALLERY -->checked="checked"<!-- ENDIF -->/> {L_YES} &nbsp;
+				<input type="radio" class="radio" name="lotusjeff_fancybox_gallery" value="0" <!-- IF not LOTUSJEFF_FANCYBOX_GALLERY -->checked="checked"<!-- ENDIF -->/> {L_NO}
+			</dd>
+		</dl>
+		<dl>
+			<dt><label for="lotusjeff_fancybox_small">{L_LOTUSJEFF_FANCYBOX_SMALL}{L_COLON}</label><br /><span>{L_LOTUSJEFF_FANCYBOX_SMALL_EXPLAIN}</span></dt>
+			<dd>
+				<input type="radio" class="radio" name="lotusjeff_fancybox_small" value="1" <!-- IF LOTUSJEFF_FANCYBOX_SMALL -->checked="checked"<!-- ENDIF -->/> {L_YES} &nbsp;
+				<input type="radio" class="radio" name="lotusjeff_fancybox_small" value="0" <!-- IF not LOTUSJEFF_FANCYBOX_SMALL -->checked="checked"<!-- ENDIF -->/> {L_NO}
+			</dd>
+		</dl>
+	</fieldset>
+	<p class="submit-buttons">
+		<input class="button1" type="submit" id="submit" name="submit" value="{L_SUBMIT}" />&nbsp;
+		<input class="button2" type="reset" id="reset" name="reset" value="{L_RESET}" />
+	</p>
+{S_FORM_TOKEN}
+</form>
+<!-- INCLUDE overall_footer.html -->
