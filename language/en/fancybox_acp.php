@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* @package phpBB Extension - Social Share
+* @package phpBB Extension - Fancybox
 * @copyright (c) 2016 Jeff Cocking
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *

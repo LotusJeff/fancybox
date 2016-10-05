@@ -1,12 +1,11 @@
 <?php
 /**
- *
- * Fancybox extension for the phpBB Forum Software package.
- *
- * @copyright (c) 2015 Jeff Cocking
- * @license GNU General Public License, version 2 (GPL-2.0)
- *
- */
+*
+* @package phpBB Extension - Fancybox
+* @copyright (c) 2016 Jeff Cocking
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+*
+*/
 
 namespace lotusjeff\fancybox\event;
 
