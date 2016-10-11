@@ -25,11 +25,6 @@ class v_1_0_1 extends \phpbb\db\migration\migration
 	{
 		return array(
 			array('config.add', array('lotusjeff_fancybox_varsions', '1.0.1')),
-			array('module.add', array(
-				'acp',
-				'ACP_FANCYBOX_TITLE',
-				),
-			)),
 		);
 	}
 }
