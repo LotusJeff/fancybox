@@ -99,10 +99,12 @@
 			}
 
 			toggle = this.buttons.toggle.removeClass('btnDisabled btnToggleOn');
+			$("#fancybox-thumbs").removeClass('fancybox-thumbs-tmp');
 
 			//Size toggle button
 			if (obj.canShrink) {
 				toggle.addClass('btnToggleOn');
+				$("#fancybox-thumbs").addClass('fancybox-thumbs-tmp');
 
 			} else if (!obj.canExpand) {
 				toggle.addClass('btnDisabled');

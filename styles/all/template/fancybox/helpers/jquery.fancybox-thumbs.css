@@ -7,7 +7,7 @@
 }
 
 #fancybox-thumbs.bottom {
-	bottom: 16px;
+	bottom: 2px;
 }
 
 #fancybox-thumbs.top {
@@ -52,4 +52,7 @@
 	border: 0;
 	padding: 0;
 	max-width: none;
+}
+.fancybox-thumbs-tmp {
+		z-index: 8000 !important;
 }
