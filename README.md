@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/LotusJeff/fancybox.svg?branch=master)](https://travis-ci.org/LotusJeff/fancybox.svg?branch=master)
 
 # Fancybox for phpBB 3.1
+# This is an abandon project. You are welcome to fork it.
 
 This extension adds the [Fancybox](http://fancyapps.com/fancybox/) jQuery plugin to phpBB 3.1. The extension will work with the existing thumbnail and image display capabilities of phpBB.  It will turn on a fancybox for displaying the large image of thumbnails.  It defaults as a gallery showing all the attached images on the page.  
 
